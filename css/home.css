@@ -1,6 +1,5 @@
 .main-hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj-mahal-1.jpg);
-    ;
     background-size: cover;
     background-position: cover;
     height: 100vh;
@@ -92,5 +91,133 @@
     font-size: 30px;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+}
+
+.destinations-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destinations-section-heading{
+    font-size: 40px;
+}
+
+.destinations-section-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.destinations-section-items-1{
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/Taj-mahal-poster.jpg);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-info{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-name{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-prize{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.card-top-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-bottom-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+    font-weight: 400;
+}
+
+.btn-book{
+    background-color: #E6501B;
+    color: white;
+    border: none;
+   padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.destinations-section-items-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.destinations-section-items-2-sub-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/kerela-card.avif);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+}
+
+.destinations-section-items-2-sub-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/ladak-card.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+}
+
+.destinations-section-items-3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}   
+
+.destinations-section-items-3-sub-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/goa-card.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+}
+
+.destinations-section-items-3-sub-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/udaipur-card.avif);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
 }
