@@ -1,6 +1,96 @@
-.main-hero-section{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./../images/taj-mahal-1.jpg);;
+.main-hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj-mahal-1.jpg);
+    ;
     background-size: cover;
     background-position: cover;
     height: 100vh;
+}
+
+.main-content {
+    margin-left: 6%;
+    margin-top: 70px;
+}
+
+.highlighted-main-content {
+    color: darkgoldenrod;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.highlighted-text {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 65px;
+    color: #E6501B;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.heading-1 {
+    color: white;
+}
+
+.main-info {
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destination-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.destination-container-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.destination-input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.recommendation{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 20px;
+}
+
+.recommendation-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.recommendation-count{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
