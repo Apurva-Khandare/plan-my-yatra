@@ -165,8 +165,9 @@
     background-color: #E6501B;
     color: white;
     border: none;
-   padding: 10px 10px;
-    border-radius: 5px;
+   padding: 5px 5px;
+   width: 100px;
+    border-radius: 20px;
     cursor: pointer;
     width: 65%;
     display: flex;
@@ -187,6 +188,9 @@
     width: 300px;
     height: 195px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .destinations-section-items-2-sub-2{
@@ -196,6 +200,9 @@
     width: 300px;
     height: 195px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .destinations-section-items-3{
@@ -211,6 +218,9 @@
     width: 300px;
     height: 195px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .destinations-section-items-3-sub-2{
@@ -220,4 +230,7 @@
     width: 300px;
     height: 195px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
