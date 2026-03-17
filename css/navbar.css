@@ -1,9 +1,16 @@
 .main-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 5px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    background-color: rgba(0,0,0,0.55);
+    z-index: 1000;
 }
 
 .website-name{
@@ -38,3 +45,42 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
 }
+
+.menu:hover{
+    color: #E6501B;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 768px) {
+    .main-container{
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .menu-toggle:checked + .nav-menu{
+        display: flex;
+
+    }
+
+}
+

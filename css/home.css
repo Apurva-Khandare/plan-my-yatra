@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: cover;
     height: 100vh;
+    padding-top: 10px;
 }
 
 .main-content {
@@ -14,6 +15,7 @@
     color: darkgoldenrod;
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -233,4 +235,66 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+.work-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.work-section-heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.work-section-discription{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.work-section-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+
+.work-card-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.work-section-card-container-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.work-section-card-container-items:hover{
+    border: 1px solid #E6501B;
+    transition: border 0.6 ease;
+}
+
+.work-section-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work-section-img{
+    background-color: #fadcd1;
+    padding: 15px;
+    border-radius: 50%;
 }
