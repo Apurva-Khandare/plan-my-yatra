@@ -77,9 +77,18 @@
         gap: 10px;
     }
 
-    .menu-toggle:checked + .nav-menu{
+    .menu-toggle:checked ~ .nav-menu{
         display: flex;
 
+    }
+
+    ..menu-toggle:checked ~ .hamburger{
+        font-size: 28px;
+        content: 'x';
+    }
+
+    .menu{
+        font-size: 18px;
     }
 
 }
