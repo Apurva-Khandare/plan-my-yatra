@@ -71,6 +71,15 @@
     font-size: 16px;
 }
 
+.btn-search{
+    background-color: #E6501B;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .recommendation{
     margin-top: 30px;
     color: white;
@@ -297,4 +306,69 @@
     background-color: #fadcd1;
     padding: 15px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .main-hero-section{
+        min-height: 100vh;
+    }
+
+    .sub-content{
+        font-size: 38px;
+    }
+
+    .main-info{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .destination-container{
+        flex-direction: column;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .destination-input{
+        width: 100%;
+    }
+
+    .btn-search{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .recommendation{
+        flex-wrap: wrap; 
+    }
+
+    .recommendation-items{
+        font-size: 10px;
+    }
+
+    .destinations-section-heading{
+        font-size: 30px;
+    }
+
+    .destinations-section-description{
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+
+    .destinations-section-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-section-heading{
+        font-size: 30px;
+    }
+
+    .work-section-discription{
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    .work-section-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }

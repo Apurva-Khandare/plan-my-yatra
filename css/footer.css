@@ -4,6 +4,7 @@
     background-color: #333;
     color: #fff;
     margin-top: 50px;
+    display: flex;
 }
 
 .footer-links{
@@ -24,4 +25,24 @@
 
 .footer-child-item-1{
     width: 35%;
+}
+
+@media screen and (max-width: 768px){
+
+    .footer-main-container{
+        height: auto;
+    }
+
+    .footer-menu-container{
+        flex-direction: column;
+         padding: 20px 25px;
+    }
+
+    .footer-child-item-1{
+        width: 100%;
+    }
+
+    .footer-child-item{
+        width: 100%;
+    }
 }
